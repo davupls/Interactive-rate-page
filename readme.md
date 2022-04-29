@@ -2,6 +2,8 @@
 ## About
 ### A simple small project to practice handling user interactions and updating the DOM.
 
+- Website Live:  https://davupls.github.io/Interactive-rate-page/
+
 ### Features
 -   Select and submit a number rating
 -   See the "Thank you" card state after submitting a rating
