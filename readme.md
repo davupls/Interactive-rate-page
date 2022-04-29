@@ -1,7 +1,7 @@
 # Interactive Rating
 ## About
 ### A simple small project to practice handling user interactions and updating the DOM.
-
+<img src="https://github.com/davupls/Interactive-rate-page/blob/main/images/desktop-preview.jpg?raw=true"></img>
 - Website Live:  https://davupls.github.io/Interactive-rate-page/
 
 ### Features
