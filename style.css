@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+
+  --call-to-action-color: #FC7614;
+}
+
+
+
+body {
+  background-color: #131518;
+  height: 100vh;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 1.75rem;
+  margin: 30px 0px 7px;
+}
+
+p {
+  color: #969FAD;
+  font-size: 0.875rem;
+}
+
+.rating-btn {
+  color: #7C8798;
+  font-size: 0.875rem;
+  border: none;
+  /* background-color: transparent; */
+
+  border-radius: 50%;
+  background: #262E38;
+
+  height: 42px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color ease-in 350ms, color ease-in 350ms;
+}
+
+.rating-btn:hover {
+  background-color: var(--call-to-action-color);
+  color: #FFF;
+  cursor: pointer;
+}
+
+.rating {
+  margin: 24px 0 32px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+.submit {
+  background-color: var(--call-to-action-color);
+  border: none;
+  border-radius: 22.5px;
+  color: #FFF;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin-bottom: 32px;
+  height: 45px;
+  width: 100%;
+  transition: background-color ease-in 350ms, color ease-in 350ms;
+}
+
+.submit:hover {
+  color: var(--call-to-action-color);
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+main {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 15px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+  padding: 32px;
+  width: 412px;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-1-img {
+  margin: 13px 0 32px;
+}
+
+.card-1-p {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: var(--call-to-action-color);
+  background-color: #262E38;
+  border-radius: 22.5px;
+  padding: 4px 20px;
+}
+
+.card-1-h2 {
+  color: #FFF;
+  font-size: 1.75rem;
+  margin: 32px 0 15px;
+}
+
+.card-1-details {
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+.card-1 {
+  display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 24px;
+    width: 87.2%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 16px 0;
+  }
+
+  .rating {
+    margin: 24px 0;
+  }
+
+  .card-1-img {
+    margin: 10px 0 24px;
+  }
+
+  .card-1-h2 {
+    font-size: 1.5rem;
+    margin: 24px 0 17px;
+  }
+
+  .card-1-details {
+    text-align: center;
+  }
+}
